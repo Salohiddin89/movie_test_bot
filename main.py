@@ -26,7 +26,7 @@ async def main():
 
 # Original behavior preserved:
 asyncio.run(main())
+keep_alive()
 
 if __name__ == "__main__":
-    keep_alive()
     asyncio.run(main())

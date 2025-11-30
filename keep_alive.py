@@ -1,12 +1,12 @@
 from flask import Flask
 from threading import Thread
 
-app = Flask(__name__)
+app = Flask("")
 
 
 @app.route("/")
 def home():
-    return "✅ Bot tirik ishlayapti!"
+    return "Bot is alive!"
 
 
 def run():
